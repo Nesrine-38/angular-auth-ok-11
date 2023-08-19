@@ -1,0 +1,5 @@
+<h1>Auth</h1>
+
+<button (click)="checkIfLogged()">Check if logged</button>
+
+<button *ngIf="authService.logged" (click)="authService.logout()">Bloublou</button>
